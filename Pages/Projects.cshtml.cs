@@ -18,7 +18,7 @@ namespace ResumeTemplater.Pages
     
 		public void OnGet()
 		{
-			GithubUsername = "";
+			GithubUsername = "GSharpd";
 			Projects = new List<Project> {
 				new Project()
 				{

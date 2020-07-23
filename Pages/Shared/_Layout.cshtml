@@ -1,10 +1,10 @@
-<!-- _Layout.cshtml -->
+﻿<!-- _Layout.cshtml -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ResumeTemplater</title>
+    <title>@ViewData["Title"] - Resume</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -21,11 +21,11 @@
 					<ul class="navbar-nav flex-grow-1 justify-content-end">
 						<li class="nav-item">
               <!-- Anchor link below, replace the "href" attribute -->
-							<a class="nav-link text-dark" href="/Index">Home</a>
+							<a class="nav-link text-dark" asp-page="Home">Home</a>
 						</li>
 						<li class="nav-item">
               <!-- Anchor link below, replace the "href" attribute -->
-							<a class="nav-link text-dark" href="/Projects">Projects</a>
+							<a class="nav-link text-dark" asp-page="Projects">Projects</a>
 						</li>
 					</ul>
 				</div>

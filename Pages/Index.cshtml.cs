@@ -17,14 +17,13 @@ namespace ResumeTemplater.Pages
 		public List<string> Languages { get; set; }
 		public void OnGet()
 		{
-			FullName = "John Doe";
-			LinkedInUsername = "";
-			YearsOfExperience = 3;
+			FullName = "¨Gustavo Vieira";
+			LinkedInUsername = "gustavomtnvieira";
+			YearsOfExperience = 1;
 			Languages = new List<string> {
 				"C#",
 				"Javascript",
-				"Java",
-				"Go"
+				"AngularJs"
 			};
 		}
   }
